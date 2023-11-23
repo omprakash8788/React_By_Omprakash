@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atm Card</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nunito+Sans:wght@300;400;600;700&family=Permanent+Marker&family=Playfair+Display:wght@700&family=Poppins:wght@200;300;400;600&family=Roboto+Condensed:wght@300&display=swap');
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   }
+   body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+   }
+   .container{
+    position: relative;
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg');
+    background-size: cover;
+    padding: 25px;
+    border-radius:28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+   }
+   header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .logo img{
+     width: 48px;
+     margin-right: 10px;
+   }
+   h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+   }
+   header .chip{
+    width: 60px;
+   }
+   h6{
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+
+
+   }
+   h5.number{
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+   }
+   h5.name{
+    margin-top: 20px;
+
+   }
+   .container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="https://www.mastercard.com/content/dam/public/mastercardcom/in/en/logos/mastercard-og-image.png" alt="img">
+                <h5>Master Card</h5>
+            </span>
+            <img src="https://png.pngtree.com/png-vector/20221115/ourmid/pngtree-credit-card-chip-illustration-withdrawal-concept-vector-png-image_20504836.png" alt="chip" class="chip">
+        </header>
+        <div class="card-details">
+            <div class="name-number">
+                <h6>Card Number</h6>
+                <h5 class="number">7654 8765 6066 0876</h5>
+                <h5 class="name">Om Kumar</h5>
+            </div>
+            <div class="valid-date">
+                <h6>Valid Till</h6>
+                <h5>11/2077</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+</script>

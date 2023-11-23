@@ -1,0 +1,42 @@
+.productcard{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.productcard img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.productcard-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productcard-description {
+    margin-bottom: 15px;
+}
+
+.productcard-price {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    flex: 1;
+    margin-right: 10px;
+}
